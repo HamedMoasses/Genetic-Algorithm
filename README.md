@@ -1,5 +1,8 @@
 # Genetic-Algorithm (EA)
 
+In this project, Genetic Algorithm MATLAB code is provided and 3 common problems including: Knapsack, nQueen and TSP have been modeled to being optimized by Genetic algorithm.
+First, a brief overview of Genetic algorithm is provided as follow: 
+
 The genetic algorithm is a search for revelation inspired by Charles Darwin's theory of natural evolution. 
 This algorithm reflects the natural selection process in which people are selected for reproduction with greater fit to form the
 offspring of the next generation.
@@ -8,14 +11,14 @@ offspring of the next generation.
 
 ![pic1](https://github.com/HamedMoasses/Genetic-Algorithm/blob/master/1.png)
 
-##The concept of natural selection
+(The concept of natural selection):
 
 The natural selection process begins with selecting the most well-off individuals from the population. 
 These people create a generation that inherits the characteristics of their parents and adds these characteristics to
 the next generation. If parents are better off, their offspring will be better off than their parents and have a better chance of survival.
 This process continues to the end, and eventually a generation with the most people is fit.
 
-##Initial population
+(Initial population)
 
 This process begins with a set of people called "Population." Each person is a solution to the problem we want to solve.
 Each person is identified by a set of parameters (variables) called genes. Genes join a string to form a chromosome (solution).
@@ -24,19 +27,19 @@ Normally binary values are used (strings 1 and 0). We assume that genes are enco
 
 ![pic1](https://github.com/HamedMoasses/Genetic-Algorithm/blob/master/2.png)
 
-##Fitness function
+(Fitness function)
 
 The Fitness Function determines how well a person fits. In other words, it determines one's ability to compete with others.
 This function gives each person a point of fit.
 The likelihood that a person will be selected for reproduction is based on his or her fitness score.
 
-##Selection:
+(Selection)
 
 The idea of the selection phase is based on selecting the most suitable people and allowing their genes to pass on to the next generation.
 Pairs of individuals (parents) are selected based on their fitness scores.
 People with the highest fit are more likely to choose to reproduce.
 
-##Crossover
+(Crossover)
 
 Crossover is the most important phase in the genetic algorithm. For each pair of parents who have amalgamation, a point of intersection is selected at a random point within the genes.
 
