@@ -7,7 +7,7 @@ The genetic algorithm is a search for revelation inspired by Charles Darwin's th
 This algorithm reflects the natural selection process in which people are selected for reproduction with greater fit to form the
 offspring of the next generation.
 
-##Genetic Algorithm:
+(Genetic Algorithm):
 
 ![pic1](https://github.com/HamedMoasses/Genetic-Algorithm/blob/master/1.png)
 
